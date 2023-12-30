@@ -57,3 +57,8 @@ Available kernels:
 pip install --upgrade pip & pip install -r requirements.txt
 ```
 
+### Esportare il Notebook in PDF
+```bash
+jupyter nbconvert --to pdf ClusterAnalysis.ipynb --LatexPreprocessor.title "Cluster Analysis dei dati sulla depressione" --LatexPreprocessor.date "Dicembre 30, 2023" --LatexPreprocessor.author_names "Christian Mancini"
+
+```
